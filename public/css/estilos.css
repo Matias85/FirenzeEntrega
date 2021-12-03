@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---NAVBAR--- */
+.container-fluid b{
+    font-family: 'Pacifico', cursive;
+}
+
+.banner img{
+    height: 80px;
+    width: 200px;
+    
+}
+.estiloBoton{
+    
+    border-color: darksalmon; 
+    color: dimgray;
+  
+}
+.estiloBoton:hover{
+    background-color: darksalmon;
+  
+    border-color: darksalmon;
+}
+
+/* ---CARRUSEL---- */
+
+.carrusel img{
+    height: 500px;
+    width: 100vw;
+}
+
+/* ---TITULO--- */
+.titulo{
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: #434343;
+    box-shadow: 5px 5px 20px darksalmon;
+    
+}
+
+/* ---CONTENEDOR--- */
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+        
+}
+
+.card{
+    border-image: round;
+    border-color: darksalmon;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10%
+
+}
+
+.card:hover{
+    background-color: darksalmon;
+    box-shadow: 5px 5px 10px darksalmon;
+}
+
+.contenedor img{
+    height: auto;
+    width: auto;
+    max-height: 180px;
+    max-width: 18rem
+}
+
+.contenedor p{
+    text-align: center;
+}
+
+/* ---FORMULARIO--- */
+
+.formHeader {
+    color: darksalmon;
+    font-size: 27px;
+    padding: 10px;
+}
+
+
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+    
+}
+
+.form-group button{
+    border-color: darksalmon; 
+    color: #fff;
+    background-color: darksalmon;
+}
+
+/* ---FOOTER--- */
+
+footer{
+    width: 100%;
+    margin: auto;
+    background-color: #F2E5E6;
+    padding: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.contenedor-body{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.column1 p{
+    font-size: 50px;
+    text-align:center;
+    font-family: 'Lobster', cursive;
+    color: rgb(124, 83, 83);
+    font-style:oblique;
+    border-style:outset;    
+        
+}
+.column2 h1{
+    font-size: 22px;
+}
+.column3 h1{
+    font-size: 22px;
+}
+
+.column2{
+   display: flex;
+   flex-direction: column;
+   padding-left: 8rem; 
+}
+
+.row1{
+    margin-top: 20px;
+    display: flex;
+    align-self: baseline;
+    
+}
+.row1 a{
+    color: #000;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 20px;   
+}
+
+.row1 img{
+    width: 36px;
+    height: 36px;       
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem; 
+ }
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 5px;
+    margin-left: 20px;
+ 
+}
+@media screen and (max-width: 768px){
+    .column1,
+    .column2,
+    .column3{
+    margin: 20px;
+    padding:0;    
+    }
+    .carrusel img{
+        height: 300px;
+    }
+}
